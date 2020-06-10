@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+html,body{
+    height:100%;width:100%;
+    margin:0px;
+    overflow: hidden;
+}
+body{
+    padding:48px;
+}
+
+p{
+    margin:0px;
+}
+
+.status-bar {
+    margin-bottom: 8px;
+    color:#fff;
+    padding:8px;
+}
+
+.status-bar.status-connected{
+    background-color:#66bb6a;
+}
+
+.status-bar.status-connecting{
+    background-color: #ffee58;
+}

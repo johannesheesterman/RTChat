@@ -1,0 +1,53 @@
+
+.container{
+    display: flex;
+    flex:1;
+    overflow: auto;
+}
+
+.chat-output {
+    flex:1;
+    overflow: auto;
+}
+
+.chat-output-empty{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-container{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+
+.chat-actions{
+    margin-top:24px;
+    background-color:#f7f8f9;
+    padding:16px;
+}
+
+.connections-container{
+    display: flex;
+    flex-direction: column;
+    min-width:256px;
+    background-color:#f7f8f9;
+    margin:24px;
+    margin-top:48px;
+    margin-bottom:0px;
+    padding:16px;
+}
+
+.tile{
+    margin-bottom: 16px;;
+}
+
+.tile-content{
+    text-align: left;
+}
+
+.connections-list{
+    flex:1;
+}
